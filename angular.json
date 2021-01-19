@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -87,7 +87,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "IOT-Front"
+  "defaultProject": "IOT-Front",
+  "cli": {
+    "analytics": "2297127e-0e04-4799-ad42-496e7c3a867a"
+  }
 }

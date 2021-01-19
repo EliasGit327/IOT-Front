@@ -1,0 +1,11 @@
+.without-header {
+  height: calc(100% - 56px);
+}
+
+.mat-drawer-container {
+  height: 100%;
+}
+
+.min-height-100 {
+  min-height: 100%;
+}

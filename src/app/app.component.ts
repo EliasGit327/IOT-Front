@@ -23,6 +23,7 @@ export class AppComponent implements OnInit, AfterViewInit {
     private localStorageService: LocalStorageService,
   ) {
     this.sideNavOptions = this.sideNavService.sideNavOptions;
+    this.sideNavOptions.mode = 'over';
   }
 
   ngOnInit(): void {

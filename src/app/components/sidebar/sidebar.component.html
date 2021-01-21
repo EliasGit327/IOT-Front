@@ -1,28 +1,21 @@
 <mat-selection-list [multiple]="false">
 
-  <div>
-    <div mat-subheader>User</div>
     <mat-list-option (click)="goToRoute('home')">
-      <mat-icon mat-list-icon>home</mat-icon>
+<!--      <mat-icon mat-list-icon>home</mat-icon>-->
       <mat-list-item role="listitem">Home</mat-list-item>
     </mat-list-option>
-    <mat-divider></mat-divider>
-  </div>
 
-  <div *ngIf="true">
-    <div mat-subheader>Admin</div>
-    <mat-list-option>
-      <mat-icon mat-list-icon>category</mat-icon>
-      <mat-list-item role="listitem">Entities</mat-list-item>
-    </mat-list-option>
-    <mat-list-option>
-      <mat-icon mat-list-icon>widgets</mat-icon>
-      <mat-list-item role="listitem">Items</mat-list-item>
-    </mat-list-option>
-    <mat-list-option>
-      <mat-icon mat-list-icon>local_offer</mat-icon>
-      <mat-list-item role="listitem">Tags</mat-list-item>
-    </mat-list-option>
-  </div>
+  <mat-list-option (click)="goToRoute('sensors')">
+<!--    <mat-icon mat-list-icon>sensors</mat-icon>-->
+    <mat-list-item role="listitem">Devices</mat-list-item>
+  </mat-list-option>
+
+  <mat-list-option (click)="goToRoute('logs')">
+    <mat-list-item role="listitem">Logs</mat-list-item>
+  </mat-list-option>
+
+  <mat-list-option (click)="goToRoute('users')">
+    <mat-list-item role="listitem">Users</mat-list-item>
+  </mat-list-option>
 
 </mat-selection-list>

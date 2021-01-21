@@ -9,6 +9,7 @@ import { ComponentsModule } from './components/components.module';
 import { FormsModule } from '@angular/forms';
 import { PagesModule } from './pages/pages.module';
 import { PagesRoutingModule } from './pages/pages-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { PagesRoutingModule } from './pages/pages-routing.module';
     ComponentsModule,
     RouterModule,
     PagesModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    HttpClientModule
   ],
   providers: [
   ],

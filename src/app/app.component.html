@@ -5,10 +5,13 @@
   <app-header [title]="title"></app-header>
 
   <mat-drawer-container class="mat-drawer-container">
+
+    <!-- Sidebar -->
     <mat-drawer #drawer [mode]="sideNavOptions.mode">
-      I'm a sidebar
+      <app-sidebar></app-sidebar>
     </mat-drawer>
 
+    <!-- Content -->
     <mat-drawer-content>
       <div class="d-flex flex-grow-1 flex-column justify-content-between min-height-100">
         <div>
